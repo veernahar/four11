@@ -17,62 +17,17 @@
     background-color: #ffffff !important;
 }
 
-.blue {
-    background-color: #3f51b5 !important;
-}
-
-.blue_text {
-    color: #3f51b5 !important;
-}
-
-.white {
-    color: #ffffff;
-}
-
 .gold {
     background-color: #F0b300 !important;
 }
 
 ul {
     list-style: none;
+    line-height: 48px;
 }
 
-button.lti_button {
-    color: white !important;
-    background-color: #3f51b5 !important;
-    margin-top: 16px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    min-width: 160px;
-}
-
-button.large_lti_button {
-    color: white !important;
-    background-color: #3f51b5 !important;
-    margin-top: 16px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+button.download-button {
     min-width: 240px;
-}
-
-.left {
-    display: inline-block;
-    width: 50%;
-    float: left;
-}
-
-.right {
-    display: inline-block;
-    width: 50%;
-    float: right;
 }
 
 html, body {
@@ -201,7 +156,7 @@ html, body {
     color: #EF3C79;
 }
 
-.strengths {
+.card {
     padding: 16px 32px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -620,7 +575,7 @@ html, body {
 
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
     background-color: #F0b300;
-    color: #37474F;
+    color: #3f51b5;
 }
 
 .demo-navigation .mdl-navigation__link .material-icons {
@@ -653,7 +608,7 @@ html, body {
     color: #EF3C79;
 }
 
-.strengths {
+.card {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -663,7 +618,7 @@ html, body {
  * not float around outside their container in IE10/11.
  * Using a browserhacks.com solution for now.
  */
-_:-ms-input-placeholder, :root .strengths {
+_:-ms-input-placeholder, :root .card {
     min-height: 664px;
 }
 
@@ -741,6 +696,16 @@ _:-ms-input-placeholder, :root .demo-graph {
     display: flex;
     box-sizing: border-box;
     align-items: center;
+}
+
+.mdl-card__supporting-text-thin {
+    color: rgba(0, 0, 0, .54);
+    font-size: 1rem;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 8px;
+    width: 90%;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
