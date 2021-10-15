@@ -192,13 +192,6 @@ body {
   align-items: center;
 }
 
-html,
-body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
@@ -454,51 +447,6 @@ body {
 
 .card_spacer {
   width: 50% !important;
-}
-
-html,
-body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-}
-
-.demo-avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-}
-
-.demo-layout .mdl-layout__header .mdl-layout__drawer-button {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.mdl-layout__drawer .avatar {
-  margin-bottom: 16px;
-}
-
-.demo-drawer {
-  border: none;
-}
-
-.demo-drawer .mdl-menu__container {
-  z-index: -1;
-}
-
-.demo-drawer .demo-navigation {
-  z-index: -2;
-}
-
-.demo-drawer .mdl-menu .mdl-menu__item {
-  display: flex;
-  align-items: center;
-}
-
-.demo-drawer-header {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 16px;
-  height: 151px;
 }
 
 .demo-navigation {
