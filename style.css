@@ -606,3 +606,15 @@ body {
     margin: 0;
     padding: 20px 0
 }
+
+@media screen and (max-width: 1024px) {
+    .download-button {
+        margin-left:-16px;
+    }
+    ul{
+        margin-top: 0;
+    }
+    .mdl-card__supporting-text, .mdl-card__supporting-text-thin, .mdl-card__supporting-text-very-thin{
+        padding: 8px;
+    }
+}
