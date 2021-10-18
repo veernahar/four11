@@ -1,6 +1,16 @@
 /*Dont look in this file*/
 /* Dont say I didnt warn you... */
 
+#view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
+
 .color--eps-gold {
     background-color: #f0b300 !important;
 }
@@ -28,7 +38,7 @@ body {
 }
 
 .demo-layout .mdl-layout__header .mdl-layout__drawer-button {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .mdl-layout__drawer .avatar {
