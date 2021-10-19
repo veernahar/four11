@@ -1,5 +1,6 @@
 /*Dont look in this file*/
 /* Dont say I didnt warn you... */
+/* Made by Veer Nahar - 8th Grade - Class of 2026 */
 
 #view-source {
     position: fixed;
@@ -609,12 +610,14 @@ body {
 
 @media screen and (max-width: 1024px) {
     .download-button {
-        margin-left:-16px;
+        margin-left: -16px;
     }
-    ul{
+
+    ul {
         margin-top: 0;
     }
-    .mdl-card__supporting-text, .mdl-card__supporting-text-thin, .mdl-card__supporting-text-very-thin{
+
+    .mdl-card__supporting-text, .mdl-card__supporting-text-thin, .mdl-card__supporting-text-very-thin {
         padding: 8px;
     }
 }
